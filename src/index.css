@@ -80,3 +80,14 @@ html, body {
 }
 
 
+@media (max-width: 600px) {
+  .title-with-logo {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo-left {
+    margin-bottom: 10px;
+  }
+}

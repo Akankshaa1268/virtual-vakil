@@ -77,3 +77,26 @@
 .homepage-buttons button:hover {
   background-color: #5d64e2;
 }
+.title-with-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns logo and title to the left */
+  gap: 15px;
+  width: 100%;
+}
+
+.logo-left {
+  width: 100px;
+  height: 100px;
+}
+
+.title-text {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #2c2c70;
+  margin: 0;
+}
+
+.highlight {
+  color: #7c83fd;
+}
