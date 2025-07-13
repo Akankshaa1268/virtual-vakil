@@ -11,13 +11,16 @@
 
 /* Content card */
 .homepage-content {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  padding: 2rem;
   max-width: 700px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.95);
-  padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  margin: 3rem auto;
   text-align: center;
+  color: #333;
 }
 
 /* Title with logo centered */
@@ -62,17 +65,23 @@
 }
 
 .homepage-buttons button {
-  width: 100%;
-  max-width: 300px;
-  padding: 12px 20px;
-  font-size: 1rem;
-  background-color: #7c83fd;
-  border: none;
+  background-color: #7e6de4;
   color: white;
-  border-radius: 8px;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background 0.2s ease-in-out;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(126, 109, 228, 0.3);
 }
+
+.homepage-buttons button:hover {
+  background-color: #9778f2;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 25px rgba(126, 109, 228, 0.7);
+}
+
 
 .homepage-buttons button:hover {
   background-color: #5d64e2;
